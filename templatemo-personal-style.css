@@ -980,3 +980,267 @@ section {
     .hero-image { width: 150px !important; height: 150px !important; }
     .logo-img { height: 45px; width: 45px; }
 }
+/* ========== KOREKSYON ESPESYAL POU TI TELEFÒN ========== */
+
+/* iPhone SE, Samsung J3, Galaxy S8+, ak tout ekran piti */
+@media (max-width: 480px) {
+    /* Kontene prensipal la */
+    .hero-container {
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 5rem 1rem 2rem !important;
+        gap: 1rem !important;
+    }
+    
+    /* Foto a an premye */
+    .hero-right {
+        order: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .hero-image {
+        width: 140px !important;
+        height: 140px !important;
+        margin: 0 auto !important;
+    }
+    
+    /* Tèks yo apre foto */
+    .hero-left {
+        order: 1 !important;
+        text-align: center !important;
+        padding: 0 0.5rem !important;
+    }
+    
+    .hero-badge {
+        font-size: 0.65rem !important;
+        padding: 0.25rem 0.8rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    
+    .hero-name {
+        font-size: 1.6rem !important;
+        margin-bottom: 0.3rem !important;
+    }
+    
+    .hero-title {
+        font-size: 0.9rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    
+    .hero-description {
+        font-size: 0.8rem !important;
+        line-height: 1.5 !important;
+        padding: 0 !important;
+        margin-bottom: 1.2rem !important;
+    }
+    
+    /* Bouton yo */
+    .hero-buttons {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 0.7rem !important;
+        margin-bottom: 1.2rem !important;
+    }
+    
+    .btn-primary, .btn-outline {
+        width: 90% !important;
+        padding: 0.7rem 1rem !important;
+        font-size: 0.85rem !important;
+        text-align: center !important;
+    }
+    
+    /* Stats yo */
+    .hero-stats {
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 1rem !important;
+        padding: 0.7rem 0.5rem !important;
+        margin-top: 0.5rem !important;
+        border-radius: 50px !important;
+    }
+    
+    .stat-number {
+        font-size: 1rem !important;
+    }
+    
+    .stat-label {
+        font-size: 0.6rem !important;
+    }
+    
+    /* Section tit yo */
+    .section-title {
+        font-size: 1.5rem !important;
+        margin-bottom: 2rem !important;
+    }
+    
+    .section-title::after {
+        width: 40px !important;
+        bottom: -12px !important;
+    }
+    
+    /* About section */
+    .about-content {
+        gap: 1.5rem !important;
+    }
+    
+    .about-image {
+        height: 200px !important;
+    }
+    
+    .about-text h3 {
+        font-size: 1.3rem !important;
+    }
+    
+    .about-text p {
+        font-size: 0.8rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .skills {
+        gap: 0.5rem !important;
+        margin-top: 1.5rem !important;
+    }
+    
+    .skill-tag {
+        padding: 0.4rem 0.8rem !important;
+        font-size: 0.7rem !important;
+    }
+    
+    /* Portfolio ak Services */
+    .portfolio-grid, .services-grid {
+        gap: 1rem !important;
+    }
+    
+    .portfolio-item, .service-item {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .portfolio-content, .service-item {
+        padding: 1rem !important;
+    }
+    
+    .portfolio-content h4, .service-item h4 {
+        font-size: 1rem !important;
+    }
+    
+    .portfolio-content p, .service-item p {
+        font-size: 0.75rem !important;
+    }
+    
+    .tech-tag, .service-tech span {
+        padding: 0.2rem 0.6rem !important;
+        font-size: 0.65rem !important;
+    }
+    
+    /* Kontak */
+    .contact-content p {
+        font-size: 0.85rem !important;
+        padding: 0 0.5rem !important;
+    }
+    
+    .contact-buttons {
+        gap: 0.8rem !important;
+        margin: 1rem 0 !important;
+    }
+    
+    .contact-btn {
+        width: 90% !important;
+        padding: 0.7rem 1rem !important;
+        font-size: 0.9rem !important;
+    }
+    
+    .contact-info {
+        padding: 0.8rem !important;
+        margin-top: 1rem !important;
+    }
+    
+    .contact-info p {
+        font-size: 0.7rem !important;
+    }
+    
+    .contact-info a {
+        font-size: 0.7rem !important;
+    }
+    
+    /* Footer */
+    .footer-left p, .footer-right a {
+        font-size: 0.65rem !important;
+    }
+    
+    /* Navigation */
+    .logo-img {
+        height: 35px !important;
+        width: 35px !important;
+    }
+    
+    .nav-container {
+        padding: 0 0.8rem !important;
+    }
+    
+    /* Scroll indicator */
+    .scroll-indicator {
+        bottom: 10px !important;
+    }
+    
+    .scroll-arrow {
+        font-size: 0.8rem !important;
+    }
+}
+
+/* Pou ekran ki pi piti pase 380px (iPhone SE an mod portrait) */
+@media (max-width: 380px) {
+    .hero-name {
+        font-size: 1.4rem !important;
+    }
+    
+    .hero-title {
+        font-size: 0.8rem !important;
+    }
+    
+    .hero-description {
+        font-size: 0.75rem !important;
+    }
+    
+    .btn-primary, .btn-outline {
+        font-size: 0.8rem !important;
+        padding: 0.6rem 0.8rem !important;
+    }
+    
+    .hero-image {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    
+    .stat-number {
+        font-size: 0.9rem !important;
+    }
+    
+    .stat-label {
+        font-size: 0.55rem !important;
+    }
+    
+    .section-title {
+        font-size: 1.3rem !important;
+    }
+}
+
+/* Pou Galaxy S8+ ak iPhone 12 Pro (ekran laj) */
+@media (min-width: 375px) and (max-width: 812px) {
+    .hero-container {
+        padding: 6rem 1rem 2rem !important;
+    }
+    
+    .hero-image {
+        width: 160px !important;
+        height: 160px !important;
+    }
+    
+    .hero-name {
+        font-size: 1.8rem !important;
+    }
+    
+    .hero-description {
+        font-size: 0.85rem !important;
+    }
+}
